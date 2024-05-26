@@ -5,3 +5,10 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Chadjawn/CJ.git
 git push -u origin main
+brew install git
+conda init --all
+conda create --name facefusion python=3.10
+git clone https://github.com/facefusion/facefusion
+cd facefusion
+python install.py
+python run.py
